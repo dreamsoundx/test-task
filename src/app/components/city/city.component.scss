@@ -1,0 +1,52 @@
+.component {
+  margin-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d3d4db;
+  max-height: 140px;
+  display: flex;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  &__image {
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+}
+.info {
+  padding-left: 29px;
+  padding-top: 29px;
+  &__title {
+    display: flex;
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #434652;
+  }
+  &__link {
+    padding-left: 15px;
+    padding-top: 2px;
+  }
+
+  &__description {
+    padding-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757986;
+  }
+}

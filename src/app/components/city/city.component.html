@@ -1,0 +1,24 @@
+<div class="component">
+  <div class="box">
+    <img class="box__image" [src]="city.image" [alt]="city.name" />
+  </div>
+
+  <div class="info">
+    <div class="info__title">
+      <h2 class="info__name">{{ city.name }}</h2>
+      <a (click)="city.favorite = !city.favorite" class="info__link">
+        <img
+          *ngIf="!city.favorite"
+          src="../../../assets/img/icons/false.svg"
+          alt="false"
+        />
+        <img
+          *ngIf="city.favorite"
+          src="../../../assets/img/icons/true.svg"
+          alt="true"
+        />
+      </a>
+    </div>
+    <p class="info__description">{{ city.description }}</p>
+  </div>
+</div>

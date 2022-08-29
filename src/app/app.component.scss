@@ -1,0 +1,43 @@
+.header {
+  min-height: 117px;
+  background-color: #f2f5fa;
+  margin-bottom: 36px;
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #434652;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    padding-left: 60px;
+  }
+}
+
+.nav {
+  margin-left: 60px;
+  margin-bottom: 16px;
+  & a {
+    border: 1px solid #c4c7d1;
+    padding: 10px 11px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #434652;
+  }
+  & a:first-child {
+    border-radius: 2px 0px 0px 2px;
+  }
+  & a:last-child {
+    border-radius: 0px 2px 2px 0px;
+  }
+}
+
+nav a.active {
+  background-color: #f2f5fa;
+}

@@ -1,0 +1,51 @@
+.container {
+  max-width: 1330px;
+  display: flex;
+  display: flex;
+}
+
+.component {
+  width: 320px;
+  height: 300px;
+  background: #f2f5fa;
+  border-radius: 8px;
+  &:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+.box {
+  &__image {
+    width: 320px;
+    height: 188px;
+    border-radius: 8px 8px 0px 0px;
+  }
+}
+.info {
+  padding-top: 18px;
+  padding-left: 20px;
+  &__title {
+    display: flex;
+  }
+
+  &__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #434652;
+  }
+
+  &__link {
+    padding-left: 12px;
+    padding-top: 1px;
+  }
+
+  &__description {
+    padding-top: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757986;
+  }
+}
