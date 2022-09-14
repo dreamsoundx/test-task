@@ -8,8 +8,8 @@ import { citys as data } from '../../data/citys';
   styleUrls: ['./tile-page.component.scss'],
 })
 export class TilePageComponent implements OnInit {
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
+  ngOnInit() {
+    console.log(1);
   }
   citys: ICity[] = data;
 }

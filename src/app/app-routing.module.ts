@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 import { ListPageComponent } from './components/list-page/list-page.component';
 import { TilePageComponent } from './components/tile-page/tile-page.component';
 
 const routes: Routes = [
+  { path: '', component: ListPageComponent },
   { path: 'list', component: ListPageComponent },
   { path: 'tile', component: TilePageComponent },
 ];
@@ -13,3 +14,4 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
+export const routingComponents = [ListPageComponent, TilePageComponent];

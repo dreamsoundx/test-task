@@ -8,8 +8,8 @@ import { citys as data } from '../../data/citys';
   styleUrls: ['./list-page.component.scss'],
 })
 export class ListPageComponent implements OnInit {
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
+  ngOnInit() {
+    console.log(1);
   }
   citys: ICity[] = data;
 }
