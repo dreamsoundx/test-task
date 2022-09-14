@@ -9,7 +9,7 @@ import { citys as data } from '../../data/citys';
 })
 export class TilePageComponent implements OnInit {
   ngOnInit() {
-    console.log(1);
+    console.log('budu staratsa!');
   }
   citys: ICity[] = data;
 }

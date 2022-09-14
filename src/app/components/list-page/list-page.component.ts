@@ -9,7 +9,7 @@ import { citys as data } from '../../data/citys';
 })
 export class ListPageComponent implements OnInit {
   ngOnInit() {
-    console.log(1);
+    console.log('vozmite na rabotu, pls');
   }
   citys: ICity[] = data;
 }
