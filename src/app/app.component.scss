@@ -4,7 +4,6 @@
   margin-bottom: 36px;
 
   &__title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -24,7 +23,7 @@
     padding: 10px 11px;
     display: inline-block;
     background-color: #ffffff;
-    font-family: 'SF UI Display';
+    font-family: 'SF UI Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;

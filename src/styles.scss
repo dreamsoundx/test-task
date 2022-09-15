@@ -1,20 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic-ext');
 
 @font-face {
   font-family: 'SF UI Display';
-  src: local('San Francisco(SF UI) Display Regular'),
-    local('San-Francisco(SF-UI)-Display-Regular'),
-    url('assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
-    url('assets/fonts/SFUIDisplay-Regular.woff') format('woff'),
-    url('assets/fonts/SFUIDisplay-Regular.ttf') format('truetype');
+  src: url('assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+    url('assets/fonts/SFUIDisplay-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @import 'nullstyle.scss';
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
